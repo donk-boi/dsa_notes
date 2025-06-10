@@ -1,0 +1,65 @@
+### See Also [[Algorithm(s)]], 
+- An **algorithm** is a finite set of instructions carried out in a *specific order* to perform to a *particular task*
+---
+- **The Characteristics of an Algorithm include:
+	- Unambiguity - *No guessing/Making things concise*
+	- Finiteness - *Making sure there is a stopping point*
+	- Well-Defined inputs - *Garbage in garbage out*
+	- Language independent - *Don't think of the algorithm as a language specific*
+	- Effectiveness and Feasibility - *Make sure that it works and there is NEED for it*
+	- Well-Defined Outputs - *Making sure you get the desired output*
+---
+- **Factors of an Algorithm
+	- **Modularity** - Broken down into small-small modules/steps
+	- **Correctness** - Given inputs produce the desired output
+	- **Maintainability** - No significant changes are required when redefining the algorithm
+	- **Functionality** - Uses logical steps to solve a real-world problem 
+	- **Robustness** - Ability to define problem clearly
+	- **User-Friendly** - Easily explained to someone
+	- **Simplicity** - Simple to understand 
+	- **Extensibility** - Extensible for other designers/programmers to use
+---
+- **Pros** and **Cons** of Algorithms
+	- **Pros**
+		- Efficiency: Streamline processes for faster/optimized solutions
+		- Reproducibility: Consistent
+		- Problem-Solving: Systematic approaches to problems
+		- Scalability: Can handle larger data sets
+		- Automation: Reduce manual intervention
+	- **Cons**
+		- Complexity: Can be time consuming and challenging
+		- Limitations: May not have efficient solutions
+		- Resource-Intensive: May required significant resources
+		- Inaccuracy: Inappropriate design or implementation can result in incorrect outputs
+		- Maintenance: May require updates
+---
+- **Example Algorithms
+	- Brute-force algorithm
+	- Searching algorithm **see: [[1. Searching and Algorithms]]**
+	- Sorting algorithm **see: [[11. Fast Sorting Algorithms]]**
+	- Encryption 
+	- Hashing **see: [[3. Hash Tables]]**
+	- Recursive Algorithm **see: [[Recursion]], [[Recursive Binary Search Algorithm]], [[9. Recursion]], [[9. Recursive Algorithms]]**
+	- Divide and Conquer Algorithm 
+	- Greedy Algorithm
+- **Complexity**
+- Two ways that we talk about this which are **Time Complexity and Space Complexity**
+	- **Time Complexity**
+		- The amount of time required to complete an algorithms execution
+		- The Big O Notation is used to represent an algorithms time complexity
+		- Calculated primarily by counting the number of steps required to complete the execution
+	- **Space Complexity**
+		- The amount of time an algorithm requires to solve a problem and produce an output
+		- Expressed in Big O Notation
+	- See [[5. O Notation]]
+- Binary Search is **O(logN)** - Binary Search starts in the middle if that is not the right result, the search repeats on the remaining left/right sub-list which is dependent on whether or not the middle was greater than or less than the request. Uses the divide and conquer approach and **works only on sorted data**
+	- see [[2. Binary Search]], [[Recursive Binary Search Algorithm]]
+- Linear Search is **O(N)** - Starts from the beginning of a list and checks each element until the search key is found or the end of the list is reached **Works on both sorted and unsorted data**
+- **BigO - O(NlogN)
+	- Example: You have a deck of cards and want to organize them in ascending order. Lets say you follow a specific strategy:
+	- Split the deck into two halves, sort each half, and merge them into a single sorted deck
+		- **Divide (logN):** Each time you divide the deck, you reduce the problem size by half
+		- **Sort(N):** When you sort each half, you're going through each card once. If there are n cards, sorting each half takes **O(N)** time
+		- **Merge(logN):** After sorting, merging the two halves involves looking at each card once. Again since you're doing this **logN** times, its **O(NlogN)**
+- Bubble sort is **O(N^2)** see [[19. Bubble Sort]]
+---

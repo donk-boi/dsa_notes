@@ -1,0 +1,24 @@
+Scores for Quizzets:
+- Chapter 1 - Score: **82.5% (33/40)**
+- Chapter 2 - Score: **77.5%  (31 / 40)**
+- Chapter 3 -  Score: **73.3%  (22 / 30)**
+- Chapter 4 - Score: **76.7%  (23 / 30)**
+- Chapter 5 - Score: **63.3%  (19 / 30)**
+- Chapter 6 - Score: **66.7%  (20 / 30)**
+- Chapter 7 - Score: **67.5%  (27 / 40)**
+- Chapter 8 - Score: **65.0%  (13 / 20)**
+- Chapter 9 - Score: **76.0%  (19 / 25)**
+- Chapter 10 - Score: **73.3%  (22 / 30)**
+- Chapter 11 - Score: **70.0%  (14 / 20)**
+- Chapter 12 - Score: **70.0%  (14 / 20)**
+- Chapter 13 - Score: **72.5%  (29 / 40)**
+- Chapter 14 - Score: **91.4%  (32 / 35)**
+- Chapter 15 - Score: **60.0%  (18 / 30)**
+- Chapter 16 - Score: **76.0%  (19 / 25)**
+- Chapter 17 - Score: **53.3%  (16 / 30)**
+- Chapter 18 - Score: **60.0%  (15 / 25)**
+- Chapter 19 - Score: **90.0%  (18 / 20)**
+- Chapter 20 - Score: **65.0%  (26 / 40)**
+- Chapter 21 - Score: ****
+- Chapter 22 - Score: **85.0%  (17 / 20)**
+- Chapter 23 - Score: **85.0%  (17 / 20)**

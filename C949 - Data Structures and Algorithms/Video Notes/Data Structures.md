@@ -1,0 +1,54 @@
+### See also: 
+- A data structure is a way of organizing, storing, and performing on data
+- Operations performed on a data structure include accessing or updated stored data, searching for a specific data, inserting new data and removing data.
+---
+- Basic Data Structures
+	- **Record**: A record stores sub-items often with a name associated with each sub-item
+		- No methods
+		- Similar to an object
+	- **Array**: An array stores and ordered list of items where each item is directly accessible by a positional index
+		- Must be imported into python
+		- Ordered/indexed
+		- Mutable
+		- Duplicates are okay
+		- Must be homogeneous (same data type i.e. all integers or all strings no mixing)
+	- **Linked list:** A linked list stores ordered list of items in nodes, where each node stores data and has a pointer to the next node
+		- Each node has data pointers and point to next node
+		- First is head and last is tail are defined
+		- Traversed from head to tail
+		- **NOT** indexed
+		- see [[7. Lists and Dictionaries]], [[1. Lists]]
+	- **Binary Trees**: A binary tree is where each node stores data and has up to two children known as a left child and a right child
+		- Each node has up to tree children known as left and right children
+		- Leaf: a tree node with no children
+		- Internal node: A node with at least one child
+		- Parent: A node with a child is said to be the child's parent
+		- Root: The one tree node with no parent AKA the "top" node
+		- see [[4. Trees]], [[5. Balanced Trees]], [[Trees, Heaps, and Hashtables]], [[Balanced Trees (AVL and Red-Black)]]
+	- **Hash Table**: A hash table stores unordered items by mapping (or hashing) each item to a location in an array
+		- Stores unordered items by mapping each item in an array
+		- Each element is a bucket
+		- Item use a key to compute bucket value
+		- **Very fast**
+			- **Computing a Hash Value**
+				- A common hash function used to the modulo operator `%` which computes the integer remainder when dividing two numbers
+				- Example: A 10 element hash table is created. A value of 64 would be computed as `64 % 4`
+				- 64 / 10 = 6 remainder 4
+		- see [[3. Hash Tables]], [[Trees, Heaps, and Hashtables]]
+	- **Heap**: A tree that maintains the property that a node key is greater than or equal to (**max-heap**) or less than or equal to (**min-heap**) to the node's children's keys
+		- Root is always highest number (max-heap) lower (min-heap)
+		- Node is always greater than child (max-heap) less than child (min-heap)
+		- New items percolate to proper spot
+		- see [[6. Heaps and Treaps]], [[Trees, Heaps, and Hashtables]]
+	- **Graph**: A graph represents connections among items and consists of vertices connected by edges. A **vertex** represents an item in a graph while an **edge** represents the connection between two vertices in a graph.
+		- A vertex (or node) represents an item in a graph
+		- An edge represents a connection between two vertices
+		- see [[8. Graphs]], [[Graphs]]
+---
+- How to choose a Data Structure?
+	- Some are more time consuming 
+	- It depends on the type of data being stores
+	- It depends on the operations of the program
+	- How hard is it to code/implement
+	- etc
+---
